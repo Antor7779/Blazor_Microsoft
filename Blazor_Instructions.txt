@@ -1,0 +1,8 @@
+create:
+       dotnet new blazor -o TodoList
+
+Add Todo Razor Component: 
+	dotnet new razorcomponent -n Todo -o Components/pages
+
+Build and run ::
+		dotnet watch run
